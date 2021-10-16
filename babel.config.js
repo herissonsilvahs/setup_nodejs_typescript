@@ -13,6 +13,6 @@ module.exports = {
   ],
   ignore: [
     '**/*.spec.ts',
-    './tsconfig.json'
+    'tsconfig.json'
   ]
 }
