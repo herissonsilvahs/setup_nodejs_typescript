@@ -11,4 +11,4 @@ app.use(express.json())
 
 app.use(express.urlencoded({ extended: true }))
 
-app.listen(PORT)
+app.listen(PORT, () => console.log(`Server up at port: ${PORT}`))
